@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiero tequeyoyos</title>
+  </head>
+  <body>
+    <!--Parrafo-->
+    <p>Marico el que lo lea</p>
+    <!--Titulares-->
+    <h1>Soy fan de los tequeyoyos</h1>
+    <h2>Si son muchos fans yo soy uno de ellos</h2>
+    <h3>Si tienen un solo fan</h3>
+    <h4>Ese soy yo</h4>
+    <h5>Y si no tienen nigun fan</h5>
+    <h6>es que me mori</h6>
+    <!--Imagen-->
+    <img
+      src="https://dossierinteractivo.com/wp-content/uploads/2021/01/Tequeyoyos.jpg"
+      alt="tequeyoyo"
+      width="400px"
+    />
+    <!--Div (Division)-->
+    <div style="background-color: rgb(174, 0, 255)">
+      <h1>Titular</h1>
+      <p>Parrafo</p>
+    </div>
+    <p>Fuera del DIV</p>
+    <!--Lista Organizada-->
+    <h1>Como Aprender HTML</h1>
+    <ol>
+        <li>Investiga</li>
+        <li>Practica</li>
+        <li>Haz Errores</li>
+        <li>Corrigelos</li>
+        <li>Vuelve a practicar</li>
+    </ol>
+    <!--Lista desorganizada-->
+    <h1>Lista de Compras</h1>
+    <ul>
+        <li>Queso</li>
+        <li>Jamos</li>
+        <li>Pan</li>
+        <li>Mantequilla el Tunal</li>
+    </ul>
+    <!--span-->
+    <p>Hola <span style="color: red ;">Mundo</span></p>
+    <!--Video-->
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=p_2PyBJfMl4">
+  </body>
+</html>
