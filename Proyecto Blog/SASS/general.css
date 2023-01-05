@@ -1,0 +1,124 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px 20px;
+}
+
+.buscador {
+  gap: 0px;
+}
+
+div {
+  display: flex;
+  gap: 12px;
+}
+div button {
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+div button:hover {
+  background-color: gray;
+  border-color: black;
+}
+div input:active {
+  border-width: 0px;
+  outline-width: 0px;
+}
+div input {
+  border-radius: 15px 0px 0px 15px;
+  border: none;
+  padding: 2px 4px;
+}
+div h1:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+.icono {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.categoria {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #551785;
+  padding: 8px 20px 0px 20px;
+  height: 800px;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.filas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 20px;
+  height: 50%;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+}
+
+.articulo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 310px;
+  height: 200px;
+  background-color: #401164;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 50px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: 300px;
+  height: 100px;
+  background-color: #401164;
+  border-radius: 10px 10px 10px 10px;
+  justify-content: center;
+  color: #f2f2f2;
+}
+
+.imagen {
+  width: 300px;
+  height: 100px;
+}
+
+/* Color de Fondo del blog #541783 */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}/*# sourceMappingURL=general.css.map */
